@@ -1,7 +1,8 @@
 # !pip install TTS numpy==1.23.5
+# !python -m trainer.distribute --script /kaggle/working/VITS/new.py --gpus "0,1"
 
 import os
-os.environ['CUDA_VISIBLE_DEVICES']="0"
+# os.environ['CUDA_VISIBLE_DEVICES']="0"
 from dataclasses import dataclass, field
 
 from trainer import Trainer, TrainerArgs
