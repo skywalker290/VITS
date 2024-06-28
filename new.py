@@ -44,7 +44,7 @@ def main():
     
 
     # load config.json and register
-    # args.continue_path = "/kaggle/working/tts/Hindi-TTS-01-June-27-2024_03+00PM-0000000"
+    args.continue_path = "/kaggle/working/tts/Hindi-TTS-01-June-27-2024_03+00PM-0000000"
     
     if args.config_path or args.continue_path:
         if args.config_path:
@@ -92,8 +92,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
 
 
 
